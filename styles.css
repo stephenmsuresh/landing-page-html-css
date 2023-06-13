@@ -84,9 +84,10 @@ body {
     padding: 0;
 }
 
-.image-squares{
+.image-squares {
     margin: auto 24px;
 }
+
 .image-squares div {
     width: 100px;
     height: 100px;
@@ -95,7 +96,7 @@ body {
     border-radius: 12px;
 }
 
-.image-squares p{
+.image-squares p {
     text-align: center;
     width: 150px;
     font-size: 18px;
@@ -105,25 +106,51 @@ body {
     background-color: #e5e7eb;
     padding: 50px;
 }
-.third-section .content{
-    display: flex; 
+
+.third-section .content {
+    display: flex;
     flex-direction: column;
 }
-.third-section #quote-text{
+
+.third-section #quote-text {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
 }
 
-.third-section #quote-speaker{
+.third-section #quote-speaker {
     align-self: flex-end;
     margin: 0;
     font-size: 18px;
     font-weight: 1000;
 }
 
-.fourth-section .signup{
+.fourth-section .signup {
     display: flex;
-    justify-content: space-between ;
+    flex: 1 1 0;
+    justify-content: space-between;
+    align-items: center;
+    color: #f9faf8;
     background-color: #3882f6;
+    padding: 20px 50px;
+    margin: 100px auto;
+    border-radius: 10px;
+}
+
+.signup button {
+    color: #f9faf8;
+    padding: 8px 24px;
+    border: 1px #f9faf8 solid;
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: white;
+}
+
+.footer{
+    background-color: #1f2937;
+    padding: 24px;
+    color: #f9faf8;
+}
+.footer .content{
+justify-content: center;
 }
