@@ -47,6 +47,10 @@ body {
     color: #f9faf8;
 }
 
+/* .first-section .content{
+    flex-wrap: wrap;
+} */
+
 .first-section p {
     color: #e5e7eb;
 }
@@ -80,6 +84,7 @@ body {
 .second-section .illustrations {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
 }
