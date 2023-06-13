@@ -1,4 +1,129 @@
-body{
+body {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    max-width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    background-color: #1f2937;
+    padding: 16px 0px;
+}
+
+.header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+.header-logo {
+    color: #f9faf8;
+    size: 24px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #e5e7eb;
+    size: 18px;
+}
+
+.first-section {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.first-section p {
+    color: #e5e7eb;
+}
+
+.first-section button {
+    padding: 8px 24px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #3882f6;
+}
+
+.intro-image img {
+    width: 500px;
+    height: auto;
+}
+
+.second-section .content {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.second-section .header-text {
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1f2937;
+    padding: 50px;
+}
+
+.second-section .illustrations {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.image-squares{
+    margin: auto 24px;
+}
+.image-squares div {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border: 3px solid #0e47a3;
+    border-radius: 12px;
+}
+
+.image-squares p{
+    text-align: center;
+    width: 150px;
+    font-size: 18px;
+}
+
+.third-section {
+    background-color: #e5e7eb;
+    padding: 50px;
+}
+.third-section .content{
+    display: flex; 
+    flex-direction: column;
+}
+.third-section #quote-text{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.third-section #quote-speaker{
+    align-self: flex-end;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 1000;
+}
+
+.fourth-section .signup{
+    display: flex;
+    justify-content: space-between ;
+    background-color: #3882f6;
 }
